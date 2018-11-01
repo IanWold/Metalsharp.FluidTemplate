@@ -39,3 +39,17 @@ new Metalsharp("Site")    // Reads the files in the directory `/Site/` to input
 	.Use<FluidTemplate>() // Renders HTML files in output using specified Liquid templates in input
 	.Build();             // Builds the website to the output directory
 ```
+
+**4. See your completed website**
+
+`index.html`:
+
+```html
+<html>
+<head><title>Hello!</title></head>
+<body>
+<h1>Hello!</h1>
+<p>Hello, World!</p>
+</body>
+</html>
+```
