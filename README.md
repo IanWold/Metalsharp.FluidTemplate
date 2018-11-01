@@ -4,7 +4,7 @@ A [Metalsharp plugin]() using [Fluid]() to let you define [Liquid templates]().
 
 ## How it works
 
-*1. Create your Liquid template file and include it in your Metalsharp project directory*
+**1. Create your Liquid template file and include it in your Metalsharp project directory**
 
 Here's an example template called `layout.template`:
 
@@ -18,7 +18,7 @@ Here's an example template called `layout.template`:
 </html>
 ```
 
-*2. Specify a metadata object with key "layout" to point to the path of the template file*
+**2. Specify a metadata object with key "layout" to point to the path of the template file**
 
 Let's assume our project directory also contains `index.md`. Here's how to specify the layout in the frontmatter:
 
@@ -30,7 +30,7 @@ layout: "layout.template"
 Hello, World!
 ```
 
-*3. Use `FluidTemplate` in your Metalsharp plugin stack*
+**3. Use `FluidTemplate` in your Metalsharp plugin stack**
 
 ```c#
 new Metalsharp("Site")    // Reads the files in the directory `/Site/` to input
