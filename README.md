@@ -34,10 +34,10 @@ Hello, World!
 
 ```c#
 new Metalsharp("Site")    // Reads the files in the directory `/Site/` to input
-	.Use<Frontmatter>()   // Extracts the file frontmatter into the metadata
-	.Use<Markdown>()      // Renders Markdown files in input to HTML files in output
-	.Use<FluidTemplate>() // Renders HTML files in output using specified Liquid templates in input
-	.Build();             // Builds the website to the output directory
+    .Use<Frontmatter>()   // Extracts the file frontmatter into the metadata
+    .Use<Markdown>()      // Renders Markdown files in input to HTML files in output
+    .Use<FluidTemplate>() // Renders HTML files in output using specified Liquid templates in input
+    .Build();             // Builds the website to the output directory
 ```
 
 **4. See your completed website**
