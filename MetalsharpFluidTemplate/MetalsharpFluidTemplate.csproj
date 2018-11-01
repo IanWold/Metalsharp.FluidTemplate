@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Fluid.Core" Version="1.0.0-beta-9446" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Metalsharp">
+      <HintPath>..\Dependencies\Metalsharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
