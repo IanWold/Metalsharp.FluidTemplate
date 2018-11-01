@@ -1,6 +1,6 @@
 # MetalsharpFluidTemplate
 
-A [Metalsharp plugin]() using [Fluid]() to let you define [Liquid templates]().
+A [Metalsharp plugin](https://github.com/IanWold/Metalsharp) using [Fluid](https://github.com/sebastienros/fluid) to let you define [Liquid templates](https://shopify.github.io/liquid/).
 
 ## How it works
 
