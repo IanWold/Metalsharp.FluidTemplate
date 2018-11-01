@@ -6,7 +6,7 @@ A [Metalsharp plugin]() using [Fluid]() to let you define [Liquid templates]().
 
 **1. Create your Liquid template file and include it in your Metalsharp project directory**
 
-Here's an example template called `layout.template`:
+Here's an example template called `/Site/layout.template`:
 
 ```plaintext
 <html>
@@ -20,7 +20,7 @@ Here's an example template called `layout.template`:
 
 **2. Specify a metadata object with key "layout" to point to the path of the template file**
 
-Let's assume our project directory also contains `index.md`. Here's how to specify the layout in the frontmatter:
+Let's assume our project directory also contains `/Site/index.md`. Here's how to specify the layout in the frontmatter:
 
 ```md
 ---
@@ -42,7 +42,7 @@ new Metalsharp("Site")    // Reads the files in the directory `/Site/` to input
 
 **4. See your completed website**
 
-`index.html`:
+`/bin/index.html`:
 
 ```html
 <html>
