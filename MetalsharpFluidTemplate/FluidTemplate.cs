@@ -6,7 +6,7 @@ namespace MetalsharpFluidTemplate
 {
     public class FluidTemplate : IMetalsharpPlugin
     {
-        public Metalsharp Execute(Metalsharp directory)
+        public void Execute(Metalsharp directory)
         {
             foreach (var file in directory.OutputFiles.Where(i => i.Extension == "html"))
             {
@@ -32,8 +32,6 @@ namespace MetalsharpFluidTemplate
                     }
                 }
             }
-
-            return directory;
         }
     }
 }
