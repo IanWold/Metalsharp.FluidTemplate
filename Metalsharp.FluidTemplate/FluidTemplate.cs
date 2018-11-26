@@ -1,12 +1,11 @@
 ﻿using Fluid;
-using Metal.Sharp;
 using System.Linq;
 
-namespace MetalsharpFluidTemplate
+namespace Metalsharp.FluidTemplate
 {
     public class FluidTemplate : IMetalsharpPlugin
     {
-        public void Execute(Metalsharp directory)
+        public void Execute(MetalsharpDirectory directory)
         {
             foreach (var file in directory.OutputFiles.Where(i => i.Extension == "html"))
             {
