@@ -1,4 +1,4 @@
-# MetalsharpFluidTemplate
+# Metalsharp.FluidTemplate
 
 A [Metalsharp plugin](https://github.com/IanWold/Metalsharp) using [Fluid](https://github.com/sebastienros/fluid) to let you define [Liquid templates](https://shopify.github.io/liquid/).
 
@@ -33,7 +33,7 @@ Hello, World!
 **3. Use `FluidTemplate` in your Metalsharp plugin stack**
 
 ```c#
-new Metalsharp("Site")    // Reads the files in the directory `/Site/` to input
+new MetalsharpDirectory("Site")    // Reads the files in the directory `/Site/` to input
     .Use<Frontmatter>()   // Extracts the file frontmatter into the metadata
     .Use<Markdown>()      // Renders Markdown files in input to HTML files in output
     .Use<FluidTemplate>() // Renders HTML files in output using specified Liquid templates in input
