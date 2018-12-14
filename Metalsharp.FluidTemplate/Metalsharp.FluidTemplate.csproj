@@ -6,12 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="Fluid.Core" Version="1.0.0-beta-9446" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="Metalsharp">
-      <HintPath>..\Dependencies\Metalsharp.dll</HintPath>
-    </Reference>
+    <PackageReference Include="Metalsharp" Version="0.9.0-rc.1" />
   </ItemGroup>
 
 </Project>
